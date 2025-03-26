@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home-work3</title>
+  <style>
+    .header {
+      height: 60px;
+      background-color: #ec931f;
+    }
+
+    header a {
+      color: #000;
+    }
+
+    .quote {
+      background-color: #eebbae;
+    }
+
+    .footer {
+      color: #fff;
+      background-color: #9439be;
+      height: 300px;
+    }
+
+    footer a {
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <nav>
+        <a href="#section-1">Первая секция</a>
+        <a href="#section-2">Вторая секция</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1 id="section-1">Заголовок</h1>
+    <section>
+      <h2>Та самая первая секция</h2>
+      <img
+        src="data:image/jpeg;base64,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"
+        alt="Монитор">
+      <p>Далеко-далеко за словесными, горами в стране гласных и согласных живут рыбные тексты. Грустный свое прямо
+        языком
+        даль, взобравшись себя заманивший ipsum коварных безорфографичный свой жизни наш за скатился? Языкового выйти
+        запятой пунктуация парадигматическая бросил, там не инициал они одна напоивший о ему текста толку рыбными
+        большого
+        текстами это единственное собрал океана ее вскоре правилами. Наш букв первую коварный диких вопрос мир курсивных
+        буквоград необходимыми жизни то свой залетают рыбного реторический предупредила предупреждал, он скатился семь
+        не,
+        безорфографичный пор ведущими свою! Оксмокс имеет там переписали букв пустился, алфавит на берегу рукопись свое
+        великий если необходимыми они вопроса текст. Назад прямо журчит первую грустный запятой.</p>
+      <ul>
+        <li>Элемент списка</li>
+        <li>Элемент списка</li>
+        <li>Элемент списка</li>
+        <li>Элемент списка</li>
+        <li>Элемент списка</li>
+        <li>Элемент списка</li>
+      </ul>
+
+    </section>
+    <section>
+      <h2 id="section-2">Та самая вторая секция</h2>
+      <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Власти проектах
+        рукопись семь путь всеми ручеек обеспечивает своих о силуэт, взобравшись взгляд диких вопрос страну
+        подзаголовок. Ручеек обеспечивает, имеет это напоивший осталось встретил запятой свой толку, необходимыми
+        маленькая которое рыбного! Все ты вопрос точках повстречался заманивший вдали букв, своих жаренные
+        парадигматическая! Решила необходимыми составитель, деревни грамматики продолжил собрал его от всех? Толку свой
+        продолжил до назад, скатился страна все, они домах подзаголовок на берегу буквоград. Всемогущая свою грамматики
+        обеспечивает домах. Журчит океана свое ipsum грамматики которое единственное буквоград, предложения составитель
+        заголовок скатился! Которое знаках путь, переулка буквенных по всей образ за всеми!</p>
+
+      <div class="quote">
+        <blockquote>
+          Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты. Точках даже курсивных
+          правилами снова бросил необходимыми диких страну, сих рыбного маленький маленькая послушавшись о скатился
+          переулка осталось жизни одна над ты однажды проектах. Которой, страну но страна даже большой мир рукопись
+          бросил
+          что маленький точках, своих пояс рыбного букв языком напоивший. Залетают несколько, путь заглавных маленькая
+          дороге пунктуация если сих пор точках злых мир живет текстов предупреждал оксмокс предупредила.
+        </blockquote>
+        <span>- Джейсон Стэтхэм</span>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <h4>Ссылки</h4>
+    <ul>
+      <li><a href="#">Ссылка</a></li>
+      <li><a href="#">Ссылка</a></li>
+      <li><a href="#">Ссылка</a></li>
+      <li><a href="#">Ссылка</a></li>
+      <li><a href="#">Ссылка</a></li>
+      <li><a href="#">Ссылка</a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>
