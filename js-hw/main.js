@@ -14,5 +14,6 @@ console.log(`Меня зовут ${firstName} ${lastName}, мне ${age} лет.
 
 
 
-result = 123456789falsetrue
+result = "123456789falsetrue"
+
 
